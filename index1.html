@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LUMINU – Smart Banking</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+</head>
+
+<body class="font-sans bg-white overflow-x-hidden">
+
+  <!-- ================= NAVBAR ================= -->
+  <nav class="fixed top-0 left-0 w-full z-50 bg-white/20 backdrop-blur-md">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-white">LUMINU</h1>
+
+      <ul class="hidden md:flex gap-8 text-white text-lg">
+        <li class="hover:text-gray-300 cursor-pointer">Home</li>
+        <li class="hover:text-gray-300 cursor-pointer">About</li>
+        <li class="hover:text-gray-300 cursor-pointer">Solutions</li>
+        <li class="hover:text-gray-300 cursor-pointer">Contact</li>
+      </ul>
+
+      <button class="hidden md:block bg-white text-black px-6 py-2 rounded-full">
+        Contact
+      </button>
+    </div>
+  </nav>
+
+  <!-- ================= HERO ================= -->
+  <section class="h-screen bg-cover bg-center relative" style="background-image:url('./bg-image.avif')">
+
+    <div class="absolute inset-0 bg-black/40"></div>
+
+    <div class="relative z-10 max-w-7xl mx-auto px-6 pt-40 text-white">
+      <h1 class="font-[Montserrat] text-6xl leading-tight mb-6">
+        FUTURE-READY,<br>SMART BANKING
+      </h1>
+
+      <button class="flex items-center gap-6 bg-white text-black px-8 py-3 rounded-full mb-6">
+        Get Started
+        <span class="w-8 h-8 bg-black text-white rounded-full flex items-center justify-center">→</span>
+      </button>
+
+      <p class="text-xl text-gray-200 max-w-xl">
+        Modern digital banking solutions designed to simplify your finances
+        and help you grow securely.
+      </p>
+    </div>
+  </section>
+
+  <!-- ================= FINANCIAL TOOLS ================= -->
+  <section class="max-w-7xl mx-auto px-6 py-32">
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-20 items-start">
+
+      <!-- LEFT CONTENT -->
+      <div>
+        <h4 class="text-gray-500 font-bold text-lg mb-4">FINANCIAL TOOLS</h4>
+        <h2 class="text-5xl font-bold mb-48">Streamline Your Banking</h2>
+        <p class="text-gray-600 text-lg leading-relaxed">
+          Manage your money smarter with intelligent tools designed for
+          speed, security, and simplicity.
+        </p>
+      </div>
+
+      <!-- RIGHT CARDS -->
+      <div class="space-y-10">
+        <div class="relative h-[400vh]">
+
+
+        <div class="bg-black text-white p-10 rounded-3xl shadow-xl">
+          <h3 class="text-4xl font-bold mb-4">01</h3>
+          <p class="text-3xl font-bold mb-12">Smart Banking Tools</p>
+          <ul class="list-disc pl-5 list-inside">
+            <li>Smart Banking Tools are digital technologies used to make banking faster and more convenient.</li>
+            <li>These tools allow customers to access banking services anytime and anywhere.</li>
+            <li>Mobile Banking Apps help users check balance, transfer money, and pay bills easily.</li>
+            <li>Internet Banking allows customers to manage their bank accounts online.</li>
+            <li>ATMs (Automated Teller Machines) provide cash withdrawal and basic banking services.</li>
+          </ul>
+        </div>
+
+        <div class="bg-[#c7c5ff] p-10 rounded-3xl shadow-xl">
+          <h3 class="text-4xl font-bold mb-4">02</h3>
+          <p class="text-xl">Digital Wallet</p>
+            <ul class="list-disc pl-5 list-inside">
+              <li >A Digital Wallet is an electronic tool used to store money digitally.</li>
+              <li >It allows users to make cashless and online payments easily.</li>
+              <li >Digital wallets can be used for shopping, bill payments, and recharges.</li>
+              <li >They store debit card, credit card, and bank account information securely.</li>
+              <li >Digital wallets support quick payments through QR codes.</li>
+            </ul> 
+        </div>
+
+        <div class="bg-[#ffe4b5] p-10 rounded-3xl shadow-xl">
+          <h3 class="text-4xl font-bold mb-4">03</h3>
+          <p class="text-xl">Payments & Transfers</p>
+          <ul class="list-disc pl-5 list-inside">
+            <li>Payments & Transfers allow users to send and receive money digitally.</li>
+            <li>These services help in making quick and secure financial transactions.</li>
+            <li>Money can be transferred between bank accounts easily.</li>
+            <li>UPI enables instant payments using mobile phones.</li>
+            <li>Users can pay utility bills, mobile recharges, and online shopping payments.</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</body>
+
+</html>
